@@ -75,3 +75,69 @@
     border-radius: 4px;
     color: white;
 }
+
+
+/* Section */
+
+
+section{
+    margin: 15px 0px;
+}
+
+section div h1{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+section .section-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-content .img-container{
+    margin: 30px 25px;
+}
+
+section .content{
+    border: 3px solid blue;
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+    margin: 5px 0px;
+}
+
+.img-container p{
+    text-align: center;
+    width: 140px;
+}
+
+
+/* QuoteSection */
+
+#quote {
+    background-color: #E5E7EE;
+    margin: 0px;
+}
+
+.quote {
+    font-size: 36px;
+    color:#1F2937;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 30px; 
+    padding: 50px;
+}
+
+.quote :nth-child(1){
+    margin-top: 20px;
+}
+
+.quote :nth-child(2){
+    margin: 20px;
+    text-align: right;
+}
